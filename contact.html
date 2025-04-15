@@ -1,35 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="contact.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="header">
-        <img src="./img/logo-regular-free-img.png" alt="">
-        <nav class="navbar">
-            <ul type="none">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <footer class="footer">
-        <img src="./img/truck-001-free-img.png" alt="">
-        <h1>IT’S TRUCKING GOOD!</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-            luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-        <ul type="none" class="footIcon">
-            <li ><a href="https://www.facebook.com/korm.taiyi.5"><i class="fa-brands fa-facebook"></i></a></li>
-            <li ><a href="https://www.facebook.com/korm.taiyi.5"><i class="fa-brands fa-telegram"></i></a></li>
+      <img src="./img/logo-regular-free-img.png" alt="" />
+      <nav class="navbar">
+        <ul type="none">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
-        <p>Copyright © 2025 Food Truck | Powered by Food Truck</p>
+      </nav>
+    </header>
+    <main class="contact-page">
+      <h2>We're Here to Chill With You!</h2>
+      <p>
+        Got questions about our ice cream, drinks, or where the truck will be
+        next? Reach out — we love hearing from our customers!
+      </p>
+
+      <h3>📅 Operating Hours</h3>
+      <ul>
+        <li><strong>Monday - Friday:</strong> 11:00 AM – 6:00 PM</li>
+        <li><strong>Saturday:</strong> 12:00 PM – 5:00 PM</li>
+        <li><strong>Sunday:</strong> Closed</li>
+      </ul>
+        <br>
+      <h3>📍 Find Us</h3>
+      <p>
+        Follow our socials or use the map below to track our next chill spot!
+      </p>
+
+      <iframe
+        src="https://maps.google.com/maps?q=New+York+City&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        width="100%"
+        height="300"
+        style="border: 0; border-radius: 10px; margin-top: 10px"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+      <section class="contact-info">
+        <header>
+          <h1>Contact</h1>
+        </header>
+        <hr />
+        <p>
+          Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+          lorem quis bibendum auctor.
+        </p>
+        <address>
+          <div class="info-item">
+            <i class="icon">📞</i>
+            <div>
+              <strong>Phone</strong><br />
+              97 6868568
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="icon">✉️</i>
+            <div>
+              <strong>Email</strong><br />
+              korm.taiyi289@gmail.com
+            </div>
+          </div>
+        </address>
+      </section>
+
+      <section class="contact-form">
+        <form action="#">
+          <div class="row">
+            <input
+              type="text"
+              id="first-name"
+              name="first-name"
+              placeholder="First Name"
+              required
+            />
+
+            <input
+              type="text"
+              id="last-name"
+              name="last-name"
+              placeholder="Last Name"
+              required
+            />
+          </div>
+
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email Address"
+            required
+          />
+
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Your Message"
+            rows="5"
+            required
+          ></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+        <p style="margin-top: 20px; text-align: center; font-weight: bold;">
+            We’ll get back to you as soon as possible — stay cool! ❄️
+          </p>          
+      </section>
+    </main>
+    <footer class="footer">
+      <img src="./img/truck-001-free-img.png" alt="" />
+      <h1>IT’S TRUCKING GOOD!</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+        luctus nec ullamcorper mattis, pulvinar dapibus leo.
+      </p>
+      <ul type="none" class="footIcon">
+        <li>
+          <a href="https://www.facebook.com/korm.taiyi.5"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/korm.taiyi.5"
+            ><i class="fa-brands fa-telegram"></i
+          ></a>
+        </li>
+      </ul>
+      <p>Copyright © 2025 Food Truck | Powered by Food Truck</p>
     </footer>
-</body>
+  </body>
 </html>
